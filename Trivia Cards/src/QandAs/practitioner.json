@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is IAM's permission delegation mechanism?",
+    "answer": "Roles"
+  },
+  {
+    "question": "What is Route 53?",
+    "answer": "Scalable Domain Name System"
+  },
+  {
+    "question": "What is Cloudfront?",
+    "answer": "Content Delivery Network service"
+  },
+  {
+    "question": "What is SNS?",
+    "answer": "AWS Managed \"push\" Notification service"
+  },
+  {
+    "question": "What is Fargate?",
+    "answer": "Run containers without mnanaging underlying infrastructure."
+  }
+]

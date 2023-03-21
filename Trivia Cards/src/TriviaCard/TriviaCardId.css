@@ -1,0 +1,11 @@
+.TriviaCardId-Body {
+  position: absolute; /* Overlay on element without disturbing parent layout */
+}
+
+.TriviaCardId-Text {
+  position: relative;
+
+  left: -92px;
+  bottom: -44px;
+  font-size: 12px;
+}
