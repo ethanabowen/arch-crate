@@ -2,7 +2,7 @@ import "./TriviaCard.css";
 import CloudCoin from "../CloudCoin/CloudCoin";
 import { TriviaCardData, TriviaCardDifficulty, TriviaCardFace } from "../types";
 import QAText from "../QAText/QAText";
-import TriviaCardId from "./TriviaCardId";
+import TriviaCardId from "../TriviaCardId/TriviaCardId";
 
 type ITriviaCardProps = {
   cardId: string;

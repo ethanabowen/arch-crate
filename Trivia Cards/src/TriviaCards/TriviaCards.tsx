@@ -1,6 +1,6 @@
 import "./TriviaCards.css";
 import { TriviaCardData, TriviaCardDifficulty, TriviaCardFace } from "../types";
-import TriviaCard from "./TriviaCard";
+import TriviaCard from "../TriviaCard/TriviaCard";
 
 type ITriviaCardsProps = {
   qAndAs: TriviaCardData[];

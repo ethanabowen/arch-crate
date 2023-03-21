@@ -4,10 +4,21 @@ import associate from "../QandAs/associate.json";
 import professional from "../QandAs/professional.json";
 import specialty from "../QandAs/specialty.json";
 
-import { TriviaCardDifficulty, TriviaCardFace } from "../types";
-import TriviaCards from "../TriviaCard/TriviaCards";
+import { TriviaCardData, TriviaCardDifficulty, TriviaCardFace } from "../types";
+import TriviaCards from "../TriviaCards/TriviaCards";
+
+const MAX_TRIVIA_CARDS_PER_PAGE = 24
+function firstNElements(jsonList:TriviaCardData[], minIndex: number, maxIndex:number) {
+  return jsonList.slice(minIndex,maxIndex)
+}
 
 function App() {
+  console.log('Practitioner Count: ', practitioner.length)
+  console.log('Associate Count: ', associate.length)
+  console.log('Professional Count: ', professional.length)
+  console.log('Specialty Count: ', specialty.length)
+
+  console.log(firstNElements(practitioner, 0, Math.min(practitioner.length, 20)))
   return (
     <>
       <div className="App Questions">
@@ -21,16 +32,6 @@ function App() {
           cardFace={TriviaCardFace.QUESTION}
           difficulty={TriviaCardDifficulty.ASSOCIATE}
         />
-        <TriviaCards
-          qAndAs={professional}
-          cardFace={TriviaCardFace.QUESTION}
-          difficulty={TriviaCardDifficulty.PROFESSIONAL}
-        />
-        <TriviaCards
-          qAndAs={specialty}
-          cardFace={TriviaCardFace.QUESTION}
-          difficulty={TriviaCardDifficulty.SPECIALTY}
-        />
       </div>
       <div className="App Answers">
         <TriviaCards
@@ -43,6 +44,21 @@ function App() {
           cardFace={TriviaCardFace.ANSWER}
           difficulty={TriviaCardDifficulty.ASSOCIATE}
         />
+      </div>
+
+      <div className="App Questions">
+        <TriviaCards
+          qAndAs={professional}
+          cardFace={TriviaCardFace.QUESTION}
+          difficulty={TriviaCardDifficulty.PROFESSIONAL}
+        />
+        <TriviaCards
+          qAndAs={specialty}
+          cardFace={TriviaCardFace.QUESTION}
+          difficulty={TriviaCardDifficulty.SPECIALTY}
+        />
+      </div>
+      <div className="App Answers">
         <TriviaCards
           qAndAs={professional}
           cardFace={TriviaCardFace.ANSWER}
