@@ -1,1 +1,0 @@
-Create an Algorithm to calculate the X Offset of SVG text based on the length of the text

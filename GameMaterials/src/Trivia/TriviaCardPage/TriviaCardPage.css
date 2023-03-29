@@ -1,0 +1,27 @@
+.TriviaCardPage {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+  max-width: 1065px; /* close to standard Letter paper size */
+}
+
+ .Questions {
+  height: 100vh;
+  justify-content: center;
+}
+
+.Answers {
+  height: 100vh;
+  justify-content: center;
+}
+
+/* When printing, the direction of the answers needs to be flipped 
+  to allow for "cut-out" of Trivia Cards with Qs and As being */
+@media print {
+  .Answers {
+    flex-direction: row-reverse;
+  }
+}

@@ -10,10 +10,13 @@ The goal of **Archicrate** is to collaboratively build a Cloud Architecture base
 
 ### Group/Solo
 
+- Difficulty Selection - Practitioner, Associate, Professional, Specialty
 - Trivia Phase - Answer 5 questions (easy - hard) to collect Cloud Coins
-- Build Phase
-  - Read Architecture proposal/pitch.
-  - Spend your Cloud Coins on Service Tiles you think are apart of the architecture. If you can't purchase all the ones you need, that's ok. Explain that as you build.
+- Challenge Phase
+  - Read selected Challenge Architecture proposal/pitch.
+  - Spend your Cloud Coins on Service Tiles you think are apart of the architecture.
+    - If you can't purchase all the ones you need, that's ok. Explain that as you build.
+    - You should begin to brainstorm the build with your team as you are spending your Cloud Coins.
   - Build the Architecture on a white-board or table.
     - Use the dry erase markers to connect the components together
   - Review Architecture answer and discuss.
@@ -24,8 +27,7 @@ The goal of **Archicrate** is to collaboratively build a Cloud Architecture base
 - These can be used or presented at the beginning of a session as a warm-up conversation.
 - Exposure is key to education!
 
-## Trival Phase
-
+# Deprecated
 - Categories:
   - Green - Data & Migration
   - Red - Security & Permissions

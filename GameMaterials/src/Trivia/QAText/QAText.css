@@ -1,0 +1,11 @@
+.QAText-Body {
+  position: absolute; /* Overlay on element without disturbing parent layout */
+}
+
+.QAText-Icon {
+  position: relative;
+  
+  left: -95px;
+  top: -35px;
+  width: 15px; /* Covers both width and height for SVGs */
+}
