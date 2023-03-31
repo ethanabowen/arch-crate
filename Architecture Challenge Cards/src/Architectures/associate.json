@@ -1,6 +1,0 @@
-[
-  {
-    "question": "Zapatos, a glocal high-end e-commerce shoe company, wants to migrate their business to AWS. Their platform consists of 4 on-prem servers running RESTful Python microservices, a MySQL DB for customer orders and data, and a file system for website content. Their DevOps team is new to AWS and is interested in a serverless solution.  Create a cost-effective architecture that considers HA and DR.",
-    "answer": "Multi-region.  API Gateway -> Lambda (python).  RDS with Read replicas.  S3 for website content.  Cloudfront for global scale."
-  }
-]
