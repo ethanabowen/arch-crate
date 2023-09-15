@@ -6,11 +6,13 @@ The inspiration for **Archicrate** is to create in-person collaboration activies
 
 The goal of **Archicrate** is to collaboratively build a Cloud Architecture based on a real-world customer need. Players will answer trivia questions to earn Cloud Coins, which they will use to purchase Service Tiles and build the Architecture together.
 
+## Theme
+Seeking the knowledge of those who came before them, a group of Architects find themselves a the front door of the AWS Cathedral of the Clouds.
 ## Gameplay Styles
 
 ### Group/Solo
 
-- Difficulty Selection - Practitioner, Associate, Professional, Specialty
+- Difficulty Selection - Practitioner, Associate, Professional, (expansion: Specialty)
 - Trivia Phase - Answer 5 questions (easy - hard) to collect Cloud Coins
 - Challenge Phase
   - Read selected Challenge Architecture proposal/pitch.
@@ -20,6 +22,8 @@ The goal of **Archicrate** is to collaboratively build a Cloud Architecture base
   - Build the Architecture on a white-board or table.
     - Use the dry erase markers to connect the components together
   - Review Architecture answer and discuss.
+
+## Theme
 
 ### Education Mode
 
